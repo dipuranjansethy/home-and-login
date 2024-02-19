@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: EM#fff !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: E#565387 !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize; }
+
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar {
+background-color: EM#fff !important;
+}
+.navbar-brand {
+font-size: 1.9rem !important;
+color: E#565387 !important;
+}
+.navbar a {
+font-size: 1.3rem;
+text-transform: capitalize;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar {
+background-color: EM#fff !important;
+}
+.navbar-brand {
+font-size: 1.9rem !important;
+color: E#565387 !important;
+}
+.navbar a {
+font-size: 1.3rem;
+text-transform: capitalize;
+}
+.menu_active {
+
+  font-weight: bold;
+  
+  border-bottom: 1px solid #565387;
+  
+  }
+
+.nav-link:hover {
+  color: #3498db !important;
+}
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+    

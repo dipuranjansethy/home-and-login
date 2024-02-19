@@ -1,0 +1,48 @@
+.login-container.card {
+    width: 300px;
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  
+  .login-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container form input[type="text"],
+  .login-container form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b37bf;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .login-container form input[type="text"]:focus,
+  .login-container form input[type="file"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.5);
+  }
+  
+  .login-container form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7c4dff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container form button[type="submit"]:hover {
+    background-color: #6b37bf;
+  }

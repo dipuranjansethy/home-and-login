@@ -19,10 +19,9 @@ const App = () => {
         <Route exact path="/about" Component={About}/>
         <Route exact path="/contact" Component={Contact}/>
         <Route exact path="/login" Component={LoginForm}/>
-        
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      
+
       
       
     </>
